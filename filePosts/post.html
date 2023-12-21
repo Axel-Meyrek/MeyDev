@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../media.css">
+    <title>MeyDev</title>
+</head>
+<body style="min-height: 100vh;">
+
+    <div id="particles-js"></div>
+
+
+    <header class="header">
+
+        <nav class="nav">
+            <a class="nav_item" href="../index.html#aboutMe">Sobre mi</a>
+            <a class="nav_item" href="../index.html#sectionLastPost">Ultimo Post</a>
+            <a class="nav_item" href="../index.html#sectionPosts">Posts</a>
+            <button id="buttonReceiveNews" class="nav_item nav_item--receiveNews" href="#receiveNews">Recibir noticias</button>
+        </nav>
+        
+        <button id="buttonMoodDark" class="icon buttonMoodDark"><i class="fa-regular fa-sun"></i></button>
+
+        <button id="buttonMenu" class="icon buttonMenu"><i class="fa-solid fa-bars"></i></button>
+
+    </header>
+
+
+    <article class="article">
+        <!-- El articulo se agrega de forma dinamica -->
+    </article>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p class="footer_parraf">Axel Meyrek</p>
+    </footer>
+
+
+    <!-- FLOATING MENU -->
+    <div id="floatingMenu" class="floatingMenu">
+        <a class="floatingMenu_item" href="../index.html#sectionAboutMe">Sobre mi</a>
+        <a class="floatingMenu_item" href="../index.html#sectionLastPost">Ultimo post</a>
+        <a class="floatingMenu_item" href="../index.html#sectionPosts">Posts</a>
+        <button id="" class="floatingMenu_item floatingMenu_item--receiveNews" href="#receiveNews">Recibir Noticias</button>
+    </div>
+
+
+    <!-- RECEIVE NEWS -->
+    <div id="sectionReceiveNews" class="sectionReceiveNews">
+        <div class="cardReceiveNews">
+            <h2 class="cardReceiveNews_title">Recibir noticias</h2>
+            <p class="cardReceiveNews_parraf">¡No te pierdas las últimas noticias y contenido exclusivo! Suscríbete a nuestro blog para estar siempre actualizado, es y siempre sera gratis. Solo necesitamos tu correo electrónico. ¡Únete a nuestra comunidad ahora!</p>
+            <input class="cardReceiveNews_input" type="text" placeholder="Correo Electronico">
+            <button class="cardReceiveNews_button" type="submit">Recibir noticias</button>
+            <button id="buttonCancelarNews" class="cardReceiveNews_buttonCancelar">Cancelar</button>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="../particles.js"></script>
+    <script src="https://kit.fontawesome.com/7b35ff6dce.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>
+    <script src="appPost.js"></script>
+    <script src="../ux.js"></script>
+    
+
+
+</body>
+</html>
